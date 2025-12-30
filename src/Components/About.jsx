@@ -1,20 +1,23 @@
 export default function About() {
   return (
-   <section id="about" className="about-section">
-  <div className="about-bg"></div> {/* Background overlay */}
+<section id="about" className="about-section">
+
+  <h2 className="about-title">About Me</h2>
+
   <div className="about-card">
-    <h2 className="about-title">About Me</h2>
-    <p className="about-text">
-      I have approximately five years of extensive experience in the software
-      testing industry, encompassing both Functional and Automation Testing
-      across multiple domains, including E-commerce, Government Ministries,
-      Investment, Charity, and Banking. I have actively participated in all
-      phases of the software testing life cycle and am highly motivated to
-      continuously learn and adapt to new technologies.
+    <p>
+      I have over 5 years of professional experience in the software testing
+      industry, specializing in both Functional and Automation Testing across
+      diverse domains including E-commerce, Government Ministries, Investment,
+      Charity, and Banking. I have been actively involved in every phase of the
+      Software Testing Life Cycle and actively involved in automation suite code quality and reviews
+      and continuously strive to adopt new
+      technologies and automation best practices to deliver high-quality
+      software solutions.
     </p>
   </div>
-</section>
 
+</section>
 
   );
 }
